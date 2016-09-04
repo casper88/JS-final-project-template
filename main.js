@@ -1,7 +1,7 @@
 var bg=document.createElement("img");
 bg.src="images/map.png";
 var aniImg=document.createElement("img");
-aniImg.src="image/slime.gif";
+aniImg.src="images/slime.gif";
 var ani={
   x:0,
   y:0
