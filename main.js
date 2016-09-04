@@ -13,5 +13,5 @@ function draw(){
   ctx.drawImage(aniImg,0,0);
 }
 
-setTimeout(draw,1000)
+setInteval(draw,1000)
 
