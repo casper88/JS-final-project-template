@@ -12,7 +12,7 @@ var canvas=document.getElementById("game_canvas");
 var ctx = canvas.getContext("2d");
 function draw(){
   ctx.drawImage(bg,1,1);
-  ctx.drawImage(towerbtn,1,1,100,100);
+  ctx.drawImage(towerbtn,100,100,100,100);
  
   
 }
