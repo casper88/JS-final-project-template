@@ -8,6 +8,7 @@ var ani={
   x:0,
   y:0
 };
+var cursor={x:0,y:0}
 var canvas=document.getElementById("game_canvas");
 var ctx = canvas.getContext("2d");
 function draw(){
@@ -21,6 +22,8 @@ setInterval(draw,1000);
 
 $("#game_canvas").mousemove(function(event){
   console.log("x:"+ event.offsetX+",y:",event.offsetY);
+  cursor.x=event.offsetX-(event.offsetX%32);
+  cursor.y=event.offsetY-(event.offsetY%32);
 });
 
 
