@@ -9,7 +9,7 @@ var ani={
   y:0
 };
 var canvas=document.getElementById("game_canvas");
-var ctx = canvas.getContext("2d")
+var ctx = canvas.getContext("2d");
 function draw(){
   ctx.drawImage(bg,1,1);
   ctx.drawImage(aniImg,0,0);
