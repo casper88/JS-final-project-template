@@ -16,5 +16,5 @@ function draw(){
   ctx.drawImage(towerbtn,640,320,100,100);
 }
 
-setInteval(draw,1000);
+setInterval(draw,1000);
 
