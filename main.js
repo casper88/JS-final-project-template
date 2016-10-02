@@ -19,3 +19,8 @@ function draw(){
 
 setInterval(draw,1000);
 
+$("#game_canvas").mousemove(function(event){
+  console.log("x:"+ event.offsetX+",y:",event.offsetY);
+});
+
+
