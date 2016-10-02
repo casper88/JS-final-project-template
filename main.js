@@ -8,7 +8,9 @@ var ani={
   x:0,
   y:0
 };
-var cursor={x:0,y:0}
+var towerImg = document.createElement("img");
+towerImg.src = "images/tower.png";
+var cursor={x:0,y:0};
 var canvas=document.getElementById("game_canvas");
 var ctx = canvas.getContext("2d");
 function draw(){
