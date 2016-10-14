@@ -1,3 +1,4 @@
+var fps=60;
 var bg=document.createElement("img");
 bg.src="images/map.png";
 var aniImg=document.createElement("img");
