@@ -1,3 +1,4 @@
+$(document)ready(function(){
 var bgImg = document.createElement("img");
 bgImg.src = "images/map.png";
 var eImg = document.createElement("img");
@@ -138,3 +139,4 @@ $("#game-canvas").on("click", function() {
     }
   }
 })
+});
