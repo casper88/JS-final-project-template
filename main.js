@@ -140,4 +140,4 @@ $("#game-canvas").on("click", function() {
     }
   }
 })
-});
+
